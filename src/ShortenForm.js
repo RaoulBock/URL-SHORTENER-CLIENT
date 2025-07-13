@@ -16,7 +16,7 @@ function ShortenForm() {
     }
 
     try {
-      const response = await axios.post("http://localhost:3000/shorten", {
+      const response = await axios.post("https://url-shortener-api-vzd3.onrender.com/shorten", {
         originalUrl: longUrl,
         expiry, // optional
       });
