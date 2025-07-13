@@ -42,5 +42,5 @@ Frontend and backend hosted separately (e.g. Render).
 ### Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/url-shortener.git
+git clone https://github.com/raoulbock/url-shortener.git
 cd url-shortener
