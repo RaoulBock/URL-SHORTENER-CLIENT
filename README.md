@@ -8,7 +8,7 @@ Frontend and backend hosted separately (e.g. Render).
 
 ## 🌐 Live Demo
 
-[WEBSITE]([https://your-frontend-url.com](https://url-shortener-website-six.vercel.app/))  
+[WEBSITE]([https://sweet-url.vercel.app/)  
 
 ---
 
