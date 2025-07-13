@@ -16,8 +16,8 @@ function ShortenForm() {
     }
 
     try {
-      const response = await axios.post("http://localhost:3000/api/shorten", {
-        url: longUrl,
+      const response = await axios.post("http://localhost:3000/shorten", {
+        originalUrl: longUrl,
         expiry, // optional
       });
 
