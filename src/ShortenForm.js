@@ -17,7 +17,7 @@ function ShortenForm() {
 
     try {
       const response = await axios.post(
-        "https://url-shortener-api-vzd3.onrender.com/shorten",
+        `${proccess.env.REACT_APP_API_SHORTENER_URI}/shorten`,
         {
           originalUrl: longUrl,
           expiry,
